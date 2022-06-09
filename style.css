@@ -1,0 +1,168 @@
+* {
+  font-size: 22px;
+  font-family: Helvetica, Arial;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+* h2 {
+  font-size: 33px;
+}
+
+* h3 {
+  font-size: 25px;
+}
+
+* h4 {
+  font-size: 22px;
+}
+
+header {
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+header nav a {
+  color: seashell;
+  margin-right: 10px;
+}
+
+#mission,
+#featuredTea,
+#featuredTea .container,
+#featuredTea .figures,
+#locations,
+#locations .locationsH2,
+#locations .pozitionContainer,
+#locations .pozitionContainer .adress,
+#contacts,
+footer {
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#mission,
+#locations {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#mission {
+  background-image: url("images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  margin: auto;
+  top: 71px;
+}
+
+#mission h2,
+#mission h4 {
+  width: 100%;
+  padding: 0.5%;
+}
+
+#featuredTea {
+  top: 5em;
+  position: relative;
+  max-width: 1000px;
+  margin: auto;
+}
+
+#featuredTea .container {
+  margin: auto;
+  line-height: 1.9em;
+}
+
+#featuredTea .figures {
+  flex-flow: row wrap;
+}
+
+#featuredTea .figures figure {
+  width: 30%;
+  height: 65%;
+  margin: 1%;
+}
+
+#featuredTea .figures figure img {
+  width: 300px;
+  height: 200px;
+}
+
+#featuredTea .figures figure figcaption {
+  margin-top: 10px;
+}
+
+#locations {
+  margin: auto;
+  height: 500px;
+  width: 1200px;
+  margin-top: 10%;
+  background-image: url("images/img-locations-background.jpg");
+}
+
+#locations .locationsH2 {
+  width: 100%;
+  background-color: transparent;
+}
+
+#locations .locationsH2 h2 {
+  margin-top: 5%;
+  background-color: transparent;
+}
+
+#locations .pozitionContainer {
+  width: 100%;
+  flex-flow: row;
+  background-color: transparent;
+  opacity: 1;
+}
+
+#locations .pozitionContainer .adress {
+  margin: auto;
+  margin-top: 15px;
+  width: 300px;
+  opacity: 1;
+}
+
+#locations .pozitionContainer .adress h3 {
+  padding: 3% 0;
+  width: 100%;
+}
+
+#locations .pozitionContainer .adress p {
+  padding: 7.5% 0;
+  width: 100%;
+}
+
+#contacts {
+  height: 200px;
+  margin: auto;
+  max-width: 1200px;
+  line-height: 3em;
+}
+
+footer {
+  margin: 20px;
+  width: 75%;
+  margin-top: 4%;
+  flex-flow: row;
+  justify-content: left;
+  text-align: left;
+}
